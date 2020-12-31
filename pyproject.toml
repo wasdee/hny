@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hny-2021"
+version = "0.1.0"
+description = ""
+authors = ["Nutchanon Ninyawee <nutchanon@codustry.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+phonenumbers = "^8.12.15"
+py-iMessage = "^1.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
